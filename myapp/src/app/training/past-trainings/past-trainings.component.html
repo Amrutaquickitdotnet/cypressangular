@@ -1,8 +1,9 @@
 <div fxLayoutAlign="center center">
-  <mat-form-field fxFlex="40%">
-    <input matInput type="text" placeholder="Find your Excercise">
-  </mat-form-field>
-</div>
+<mat-form-field>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Choose your excecise">
+    </mat-form-field>
+  </div>
+
 
 <mat-table [dataSource]="dataSource" matSort>
   <ng-container matColumnDef="date">
