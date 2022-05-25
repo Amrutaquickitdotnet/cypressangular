@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fitness-tracker-d3d40": {
+      "hosting": {
+        "myapp": [
+          "quickitdotnetfitness"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fitness-tracker-d3d40"
+  }
+}
